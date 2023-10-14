@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Helvetica|Garamond|Georgia');
+
 #content{max-width: 1600px; margin: 0 auto;}
 
-nav a{text-align: center; color: #281867; text-decoration: none;}
+nav a{text-align: center; color: #281867; text-decoration: none; padding: 35px;}
 
-#hero-msg h1, #hero-msg h4{text-align: center;}
+#hero-msg h1, #hero-msg h4{text-align: center;
+     font-family:  Helvetica, Arial, sans-serif;}
 
 .button-box{text-align: center;}
 
@@ -10,29 +13,43 @@ main section{text-align: center;}
 
 #background{height: 725px;}
 
-body{background-color: #ffffff;}
+body{background-color: #ffffff; 
+    
+    font-family: Georgia, 'Times New Roman', Times, serif; font-size: 22px;
+     padding: 0; margin: 0;}
+
+h2{padding: 0; margin: 0;}
 
 header{background-color: #e0872e;}
 
 nav a:hover{background-color: #0077a7; color:#ffffff;}
 
-.book, .join{background-color: #e0872e; color: #281867; text-decoration: none;}
+.book, .join{background-color: #e0872e; color: #281867; 
+    text-decoration: none; font-size: 18px; padding: 15px 30px; margin-top: 50px;
+    border-radius: 5px;}
+
+.card-img{border:10px solid black;}
+
+main section img{box-sizing: border-box;}
 
 .book:hover, .join:hover{background-color: #0077a7; color: #ffffff;}
 
 #background{background-color: #0077a7;}
 
-.msg{background-color: #0077a7;}
+.msg{background-color: #0077a7; line-height: 1.5em; padding: 35px;} 
 
-footer{background-color: #e0872e; color: #281867;}
+footer{background-color: #e0872e; color: #281867; padding: 25px 50px;
+     margin-top: 200px;}
 
-.home-title{color: #ffffff;}
+.home-title{color: #ffffff;
+     font-family: Helvetica, Arial, Sans-serif; font-size: 2em; 
+     margin-top: 10px;}
 
 h4{color: #281867;}
 
-msg h2{color: #ffffff;}
+.msg h2{color: #ffffff; font-family:  Helvetica, Arial, sans-serif;}
 
-.msg p{color: #ffffff;}
+.msg p{color: #ffffff; font-size: .8em; padding-bottom: 15px;}
 
 footer a{color: #281867; text-decoration: none;}
 
@@ -40,7 +57,7 @@ footer  a:hover{color: #ffffff;}
 
 .logo{width: 80px;}
 
-.icon{width: 80px;}
+.icon{width: 80px; padding-top: 10px;}
 
 #hero-img{width: 100%;}
 
@@ -48,6 +65,13 @@ footer p{font-size: 1.20em;}
 
 footer p:hover{text-decoration: none;}
 
+#logo_link{padding-top: 5px;}
+
+footer .social img{padding-top: 15px;}
+
+.rivers-card, .camping-card, .rapids-card{margin: 200px 0;}
+
+h2{margin: 0;}
 
 
 
