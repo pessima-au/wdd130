@@ -2,7 +2,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Helvetica|Garamond|Georgia');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Source+Serif+4:opsz,wght@8..60,600&display=swap');
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #0077a7  ;
