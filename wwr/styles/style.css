@@ -189,6 +189,90 @@ h2{margin: 0;}
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+       /* Blog styling  */
+ main {
+    max-width: 800px;
+    margin: 0 auto;
+    }
+    
+.main_blog {
+    margin-bottom: 40px;
+    }
+
+.para0, .para1,
+ .para3, .para4, 
+ .para5, .para6, 
+ .para7, .para8, .para9{
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+    }
+
+.para11{
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+    }
+
+
+.section1, .section2 {
+    margin-top: 20px;
+    }
+    
+    .group_img{
+        float: right;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        width: 300px;
+        height: 175px;
+    }
+
+.canyon{
+    float: left;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        width: 300px;
+        height: 175px;
+}
+
+.ram{
+    float: right;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        width: 300px;
+        height: 175px;
+}
+
+.rafting65{
+    float: right;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        width: 300px;
+        height: 175px;
+}
+
+.group_img:after,
+.canyon:after,
+.ram:after 
+.rafting65{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.anchor{
+    text-decoration: none;
+}
+
+.blog-h{
+    text-align: center;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -238,5 +322,15 @@ h2{margin: 0;}
 
     footer {
         margin-top: 25px;
+    }
+
+    /* Blog media query */
+    .group_img, .canyon, .ram, .rafting65 {
+        float: none;
+        margin-right: 0;
+    }
+
+    img {
+        width: 100%;
     }
 }
