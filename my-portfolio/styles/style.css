@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans&display=swap');
+
+.home-main{background: url(../images/home-abstract-2.jpg) no-repeat;
+     background-size: cover;
+     margin-top: -25px;
+     height: 500px;
+     font-family: 'open sans';
+}
+
+
+nav a{
+    text-align: center; 
+    color: #cb9b45; 
+    text-decoration: none;
+    padding: 35px;
+    font-family: Merriweather;
+    }
+     
+
+nav{display: flex;
+    justify-content: space-around;
+    background-color: #082335;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.home-1:hover, .resume:hover, .contact:hover{
+    background-color: #cb9b45;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.logo{
+    width: 85px;
+    height: 55px;
+} 
+
+.logo_link{
+    padding-top: 5px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.home-main{
+    display: grid;
+    grid-template-columns: 50px 350px 1fr;
+    grid-template-rows: 50px 250px 1fr;   
+}
+
+
+.home-pic{
+   grid-column: 2/3;
+   grid-row: 2/3;
+}
+
+.article-1{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    padding: 5px;
+    text-align:start;
+    width: 85%;
+    margin: 0 auto;
+    height: fit-content;
+}
+
+.main-header, .sub-header{
+    text-align: center;
+    font-family: Merriweather;
+}
+
+
+.article-2{
+    grid-column: 2/4;
+    grid-row: 3/4;
+    text-align: justify;
+    padding: 25px;
+    margin-right: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;;
+    height: 70px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.footer_paragraph{font-size: 1.20em;
+color: #cb9b45;
+margin-left: -100px;
+}
+
+footer .social img{padding-top: 15px;
+    margin-left: -150px;
+    display: inline-block;
+    margin-left: 10px;
+    width: 32px;
+    box-sizing: border-box;
+}
+
+.site-plan{
+    text-decoration: none;
+    color: #cb9b45;
+}
+
+.site-plan:hover{
+    background-color: #cb9b45;
+    color: black;
+    padding: 16px;
+}
+
+@media screen and (max-width: 900px) {
+    body{ 
+        font-size: 14px;
+    }
+
+    header nav{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .home-main, .home-pic{
+        display: block;
+    }
+    
+    .home-main {
+        display: flex ;
+        flex-direction: column;
+        height: fit-content;
+      }
+    
+      .home-pic {
+        display: block;
+        margin-top: 20px; 
+        align-self: center;
+      }
+    
+      .article-1,
+      .article-2 {
+        margin-bottom: 20px; 
+        text-align: justify;
+      }
+
+      .article-2{
+        align-content: center;
+      }
+
+      footer{ margin: top 25px;
+        flex-direction: column;
+        box-sizing: border-box;
+        height: auto;
+        align-items: center;
+      }
+}
