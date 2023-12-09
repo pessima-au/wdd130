@@ -238,6 +238,52 @@ footer .social img {
 }
 
 
+/* CONTACTME */
+
+.contact-me {
+    background: url(../images/Contact-me-page.jpg) ;
+    background-size: cover;
+    display:block;
+    height: 100%;
+    font-family: "open sans";
+    line-height: 1.6;
+    color: #333;
+    margin: 0 auto;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+label,
+input,
+textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.contact-me button {
+    background-color: #cb9b45;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-me button:hover {
+    background-color: #082335;
+}
+
 
 @media screen and (max-width: 900px) {
     body {
